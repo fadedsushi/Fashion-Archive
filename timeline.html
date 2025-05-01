@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Archive - Timeline</title>
+    <meta name="description" content="Explore key moments in American fashion history through our visual timeline from the 1900s to present day.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/ui/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Fashion Archive</h1>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archive.html">Explore</a></li>
+                    <li><a href="timeline.html" aria-current="page">Timeline</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle-container">
+                <button id="theme-toggle" class="cta-button">Toggle Light Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="timeline-intro">
+            <h2>Fashion Timeline: Key Moments in American Style</h2>
+            <p>Explore pivotal moments in American fashion history through this visual journey from the 1900s to today. Each image captures an iconic style, trend, or fashion revolution that shaped our cultural landscape.</p>
+            
+            <!-- Added decade quick navigation -->
+            <div class="timeline-decade-nav">
+                <h3>Jump to Decade:</h3>
+                <div class="decade-quick-links">
+                    <a href="#decade-1900s" class="decade-quick-link">1900s</a>
+                    <a href="#decade-1910s" class="decade-quick-link">1910s</a>
+                    <a href="#decade-1920s" class="decade-quick-link">1920s</a>
+                    <a href="#decade-1930s" class="decade-quick-link">1930s</a>
+                    <a href="#decade-1940s" class="decade-quick-link">1940s</a>
+                    <a href="#decade-1950s" class="decade-quick-link">1950s</a>
+                    <a href="#decade-1960s" class="decade-quick-link">1960s</a>
+                    <a href="#decade-1970s" class="decade-quick-link">1970s</a>
+                    <a href="#decade-1980s" class="decade-quick-link">1980s</a>
+                    <a href="#decade-1990s" class="decade-quick-link">1990s</a>
+                    <a href="#decade-2000s" class="decade-quick-link">2000s</a>
+                    <a href="#decade-2010s" class="decade-quick-link">2010s</a>
+                    <a href="#decade-2020s" class="decade-quick-link">2020s</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <!-- 1900s -->
+                <div class="decade-marker" id="decade-1900s">
+                    <h3 class="decade-title">1900s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1903"></div>
+                    <div class="timeline-card">
+                        <h3>1903: The Gibson Girl</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1903-gibson-girl.jpg" alt="Gibson Girl illustration by Charles Dana Gibson" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Charles Dana Gibson's illustrations created America's first beauty standard, featuring a tall, athletic woman with an S-curve silhouette, upswept hair, and a poised demeanor.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1910s -->
+                <div class="decade-marker" id="decade-1910s">
+                    <h3 class="decade-title">1910s</h3>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1914"></div>
+                    <div class="timeline-card">
+                        <h3>1914: War Changes Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1914-women-in-wartime.jpg" alt="Women in wartime practical clothing" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>World War I transformed women's fashion as they entered the workforce. Hemlines rose, silhouettes became more practical, and military details influenced civilian clothing.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1920s -->
+                <div class="decade-marker" id="decade-1920s">
+                    <h3 class="decade-title">1920s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1925"></div>
+                    <div class="timeline-card">
+                        <h3>1925: The Flapper Revolution</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1925-flapper-women.jpg" alt="Flapper women in dropped-waist dresses with bobbed hair" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>The flapper embodied the Roaring Twenties with her bobbed hair, knee-length dresses, and rebellious spirit. This look symbolized women's newfound freedom after gaining the right to vote.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1930s -->
+                <div class="decade-marker" id="decade-1930s">
+                    <h3 class="decade-title">1930s</h3>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1932"></div>
+                    <div class="timeline-card">
+                        <h3>1932: Depression Era Elegance</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1932-depression-glamour.jpg" alt="Bias-cut gowns and Hollywood glamour" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Despite economic hardship, Hollywood glamour provided escapism. Madeleine Vionnet's bias-cut gowns created elegant, body-skimming silhouettes that defined 1930s sophistication.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1940s -->
+                <div class="decade-marker" id="decade-1940s">
+                    <h3 class="decade-title">1940s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1943"></div>
+                    <div class="timeline-card">
+                        <h3>1943: Utility Clothing</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1943-womens-utility.jpg" alt="Women in factory workwear during WWII" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>"Rosie the Riveter" became an icon as women adopted practical workwear. Fabric rationing led to shorter skirts, narrower silhouettes, and the popularization of trousers for women.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1950s -->
+                <div class="decade-marker" id="decade-1950s">
+                    <h3 class="decade-title">1950s</h3>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1955"></div>
+                    <div class="timeline-card">
+                        <h3>1955: The New Look</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1950s-fashion-dior-new-look.jpg" alt="Women in Dior's New Look with full skirts and tiny waists" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Christian Dior's "New Look" dominated American fashion with its nipped waists, full skirts, and ultra-feminine silhouette, reflecting post-war prosperity and a return to traditional gender roles.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1960s -->
+                <div class="decade-marker" id="decade-1960s">
+                    <h3 class="decade-title">1960s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1967"></div>
+                    <div class="timeline-card">
+                        <h3>1967: Summer of Love</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/1960s-hippie-fashion.jpg" alt="Hippie fashion with tie-dye and fringe" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>The counterculture movement embraced psychedelic prints, tie-dye, fringe, and ethnic-inspired designs. Fashion became a political statement against the Vietnam War and consumer culture.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1970s -->
+                <div class="decade-marker" id="decade-1970s">
+                    <h3 class="decade-title">1970s</h3>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1977"></div>
+                    <div class="timeline-card">
+                        <h3>1977: Disco Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/70s-disco-fashion.jpg" alt="Disco fashion with platform shoes and sequins" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Disco dominated nightlife and fashion with platform shoes, bell-bottoms, and shimmering fabrics. Studio 54 became the epicenter of glamorous excess, while John Travolta's white suit in "Saturday Night Fever" defined an era.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1980s -->
+                <div class="decade-marker" id="decade-1980s">
+                    <h3 class="decade-title">1980s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1983"></div>
+                    <div class="timeline-card">
+                        <h3>1983: Power Dressing</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/80s-power-fashion.jpg" alt="1980s power suits with shoulder pads" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>As women entered corporate America in unprecedented numbers, power suits with exaggerated shoulder pads symbolized female ambition. Designers like Donna Karan and Ralph Lauren defined the look of the career woman.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1985"></div>
+                    <div class="timeline-card">
+                        <h3>1985: MTV Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/80s-mtv-fashion.jpg" alt="Madonna's 'Like a Virgin' era fashion" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>MTV revolutionized fashion as music videos became style showcases. Madonna's "Like a Virgin" look with lace gloves, crucifixes, and visible lingerie influenced a generation, while Michael Jackson's red "Thriller" jacket became iconic.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1990s -->
+                <div class="decade-marker" id="decade-1990s">
+                    <h3 class="decade-title">1990s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="1992"></div>
+                    <div class="timeline-card">
+                        <h3>1992: Grunge Revolution</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/90s-grunge-revo.jpg" alt="Grunge fashion with flannel shirts and Doc Martens" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Seattle's music scene spawned grunge fashion, with flannel shirts, ripped jeans, and Doc Martens boots representing youth rebellion against the excesses of the 1980s. Marc Jacobs' controversial grunge collection for Perry Ellis brought the look to high fashion.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="1995"></div>
+                    <div class="timeline-card">
+                        <h3>1995: Minimalism</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/95-minimalist-ck.jpg" alt="Calvin Klein minimalist fashion" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>As a reaction to 80s excess, minimalism dominated mid-90s fashion. Calvin Klein, Jil Sander, and Helmut Lang championed clean lines, neutral colors, and understated luxury. The "heroin chic" aesthetic emerged with Kate Moss as its poster child.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2000s -->
+                <div class="decade-marker" id="decade-2000s">
+                    <h3 class="decade-title">2000s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="2001"></div>
+                    <div class="timeline-card">
+                        <h3>2001: Y2K Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/2000s-y2k.jpg" alt="Y2K fashion with low-rise jeans and crop tops" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>The new millennium brought futuristic fashion with metallic fabrics, low-rise jeans, and belly-baring tops. Juicy Couture velour tracksuits became a status symbol, while celebrities like Britney Spears and Paris Hilton defined the era's style.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="2008"></div>
+                    <div class="timeline-card">
+                        <h3>2008: Michelle Obama's Fashion Influence</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/08-obama.jpg" alt="Michelle Obama in Jason Wu inaugural gown" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>First Lady Michelle Obama revolutionized political fashion by championing American designers and mixing high-end pieces with accessible brands like J.Crew. Her Jason Wu inaugural gown marked a new era of fashion diplomacy.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2010s -->
+                <div class="decade-marker" id="decade-2010s">
+                    <h3 class="decade-title">2010s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="2014"></div>
+                    <div class="timeline-card">
+                        <h3>2014: Athleisure Takes Over</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/2014-athleisure.jpg" alt="Athleisure fashion trend" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Athletic wear moved beyond the gym as "athleisure" became acceptable everyday attire. Brands like Lululemon and Nike became fashion statements, while celebrities like Beyoncé launched activewear lines, blurring the line between workout clothes and casual fashion.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="2016"></div>
+                    <div class="timeline-card">
+                        <h3>2016: Gender-Fluid Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/2016-gender-fluid-fashion.jpg" alt="Gender-fluid fashion runway show" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Traditional gender boundaries in fashion began to dissolve as designers like Alessandro Michele at Gucci championed gender-fluid designs. Celebrities like Jaden Smith and Billy Porter challenged norms by wearing skirts and dresses on red carpets.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2020s -->
+                <div class="decade-marker" id="decade-2020s">
+                    <h3 class="decade-title">2020s</h3>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot" data-year="2020"></div>
+                    <div class="timeline-card">
+                        <h3>2020: Pandemic Fashion</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/2020-pandemic.jpg" alt="Fashion masks and work from home attire" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>COVID-19 transformed fashion as lockdowns made comfort paramount. Loungewear sales soared, while face masks became essential fashion accessories. The "waist-up" dressing trend emerged for video calls, focusing on statement tops and jewelry.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-dot" data-year="2023"></div>
+                    <div class="timeline-card">
+                        <h3>2023: Sustainable Fashion Movement</h3>
+                        <div class="timeline-image">
+                            <img src="images/timeline/2023-sustainable-fashion.jpeg" alt="Sustainable fashion runway show" loading="lazy">
+                        </div>
+                        <div class="timeline-content">
+                            <p>Environmental concerns pushed sustainability to the forefront of fashion. Brands committed to reducing waste and carbon footprints, while secondhand shopping through platforms like Depop and ThredUp became mainstream, challenging fast fashion's dominance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fashion Archive</h3>
+                <p>Exploring the intersection of fashion, society, and culture in US history from the 1900s to present day.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archive.html">Explore</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Credits</h3>
+                <p>Designed and Developed by Daniel Lee</p>
+                <p>© 2024 Fashion Archive</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
